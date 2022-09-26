@@ -15,3 +15,23 @@ npx eslint test.js --fix
 
 cat test.js | npx eslint --stdin
 ```
+
+
+
+eslint-plugin-colint
+
+npm install yo generator-eslint -g
+
+yo eslint:plugin
+
+yo eslint:rule
+
+
+
+根目录：
+
+pnpm install eslint-plugin-colint@workspace -w
+
+
+
+每一个访问器绑定多少规则
