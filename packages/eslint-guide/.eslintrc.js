@@ -11,5 +11,6 @@ module.exports = {
         "ecmaVersion": "latest"
     },
     "rules": {
+        "quotes": [1, "single"]
     }
 }
