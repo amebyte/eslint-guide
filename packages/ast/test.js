@@ -2,7 +2,7 @@ const esprima = require('esprima')
 const estraverse = require('estraverse')
 const escodegen = require('escodegen')
 
-const code = 'function fn() {}'
+const code = 'function fn() {};'
 
 let ast = esprima.parseScript(code)
 
