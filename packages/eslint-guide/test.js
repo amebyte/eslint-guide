@@ -1,2 +1,3 @@
-let b='fff'
 
+
+ require('path')

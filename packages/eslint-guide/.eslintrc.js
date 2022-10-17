@@ -4,7 +4,7 @@ module.exports = {
         'es2021': true,
         'node': true
     },
-    "extends": "eslint:recommended",
+    'extends': 'eslint:recommended',
     'plugins': ['colint'],
     'overrides': [
     ],
@@ -12,7 +12,7 @@ module.exports = {
         'ecmaVersion': 'latest'
     },
     'rules': {
-        "quotes": [1, "single"],
+        'quotes': [1, 'single'],
         'colint/no-var': ['error']
     }
 }
