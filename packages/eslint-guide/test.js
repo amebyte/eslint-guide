@@ -1,2 +1,2 @@
-let b='fff'
+var b='fff'
 
