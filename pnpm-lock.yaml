@@ -24,6 +24,21 @@ importers:
     devDependencies:
       eslint: registry.npmmirror.com/eslint/8.24.0
 
+  packages/eslint-plugin-bytelint:
+    specifiers:
+      eslint: ^8.19.0
+      eslint-plugin-eslint-plugin: ^5.0.0
+      eslint-plugin-node: ^11.1.0
+      mocha: ^10.0.0
+      requireindex: ^1.2.0
+    dependencies:
+      requireindex: registry.npmmirror.com/requireindex/1.2.0
+    devDependencies:
+      eslint: registry.npmmirror.com/eslint/8.24.0
+      eslint-plugin-eslint-plugin: registry.npmmirror.com/eslint-plugin-eslint-plugin/5.0.6_eslint@8.24.0
+      eslint-plugin-node: registry.npmmirror.com/eslint-plugin-node/11.1.0_eslint@8.24.0
+      mocha: registry.npmmirror.com/mocha/10.0.0
+
   packages/eslint-plugin-colint:
     specifiers:
       eslint: ^8.19.0

@@ -1,2 +1,1 @@
-var b='fff'
- require('path')
+var b = '稀土掘金'

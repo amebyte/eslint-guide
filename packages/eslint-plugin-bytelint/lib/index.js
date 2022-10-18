@@ -1,6 +1,6 @@
 /**
- * @fileoverview cobyte lint
- * @author eslint-plugin-colint
+ * @fileoverview test
+ * @author bytelint
  */
 "use strict";
 
@@ -16,16 +16,7 @@ const requireIndex = require("requireindex");
 
 
 // import all rules in lib/rules
-module.exports = {
-    rules: requireIndex(__dirname + "/rules"),
-    configs: {
-        recommended: {
-            plugins: ['colint'],
-            rules: {
-                'colint/no-var': ['error']
-            }
-        }
-    }
-}
+module.exports.rules = requireIndex(__dirname + "/rules");
+
 
 
