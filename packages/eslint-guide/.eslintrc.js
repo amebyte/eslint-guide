@@ -6,6 +6,7 @@ module.exports = {
     },
     // 'extends': 'eslint:recommended',
     'extends': ['plugin:colint/recommended']
+    // 'extends': ['cobytelint']
     // 'plugins': ['colint'],
     // 'overrides': [
     // ],

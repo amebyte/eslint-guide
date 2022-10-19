@@ -1,5 +1,5 @@
 {
-  "name": "eslint-guide",
+  "name": "eslint-config-cobytelint",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,7 +10,5 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "eslint-config-cobytelint": "workspace:^1.0.0",
-    "eslint-plugin-colint": "workspace:^0.0.0"
   }
 }

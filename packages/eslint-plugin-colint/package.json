@@ -7,7 +7,7 @@
     "eslintplugin",
     "eslint-plugin"
   ],
-  "author": "eslint-plugin-colint",
+  "author": "Cobyte",
   "main": "./lib/index.js",
   "exports": "./lib/index.js",
   "scripts": {
