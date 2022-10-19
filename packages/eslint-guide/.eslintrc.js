@@ -5,8 +5,8 @@ module.exports = {
         // 'node': true
     },
     // 'extends': 'eslint:recommended',
-    'extends': ['plugin:colint/recommended']
-    // 'extends': ['cobytelint']
+    // 'extends': ['plugin:colint/recommended']
+    'extends': ['@cobyte-test/eslint-config']
     // 'plugins': ['colint'],
     // 'overrides': [
     // ],
