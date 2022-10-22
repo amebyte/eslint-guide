@@ -6,15 +6,16 @@ module.exports = {
     },
     // 'extends': 'eslint:recommended',
     // 'extends': ['plugin:colint/recommended']
-    'extends': ['@cobyte-test/eslint-config']
+    // 'extends': ['@cobyte-test/eslint-config']
     // 'plugins': ['colint'],
     // 'overrides': [
     // ],
     // 'parserOptions': {
     //     'ecmaVersion': 'latest'
     // },
-    // 'rules': {
+    'rules': {
         // 'quotes': [1, 'single'],
-        // 'colint/no-var': ['error']
-    // }
+        // 'colint/no-var': ['error'],
+        'no-var': ['error']
+    }
 }
